@@ -1,0 +1,14 @@
+.git
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.env
+venv
+.env.*
+node_modules
+data
+*.mp4
+*.zip
+*.tar
+*.log

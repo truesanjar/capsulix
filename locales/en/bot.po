@@ -1,0 +1,205 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Time Capsule Bot\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "start"
+msgstr "⏳ *Time Capsule*\n\n👋 Hello! I'll help you send a message to your future self!\n\n🎯 *What you can do:*\n• 📝 Send text message\n• 🖼 Save photos (multiple at once!)\n• 🎬 Send video\n• 🎥 Video Note (circle video)\n• 🎵 Record audio\n• 📁 Upload any file\n\n⏰ You can set time with *second* precision!\n⚠️ *Only 1 capsule per time!* (For two capsules, choose different times)\n📦 Each user can create *10 capsules*\n\n👇 Use the menu below:"
+
+msgid "choose_language"
+msgstr "🌍 Please choose your language:"
+
+msgid "language_set"
+msgstr "✅ Language set to English!"
+
+msgid "cancel"
+msgstr "❌ Cancel"
+
+msgid "ready_send"
+msgstr "✅ Done! Send"
+
+msgid "add_more_files"
+msgstr "📎 Add more files"
+
+msgid "delete_capsule"
+msgstr "🗑 Delete Capsule"
+
+msgid "help_text"
+msgstr "📖 *Time Capsule Guide*\n\n1️⃣ '🆕 New Capsule' - Create new capsule\n2️⃣ Enter time (example: 1 year 2 months 3 days 4 hours)\n3️⃣ Send message or file(s)\n4️⃣ For multiple files: press '📎 Add more files'\n\n📌 *Time examples:*\n• 1 year\n• 6 months\n• 15 minutes\n• 2025-01-01 12:00\n• 2 weeks 3 days\n\n⚠️ *Note:* Only 1 capsule per time!\nIf you enter the same time again, you'll get an error.\nInstead enter 1 hour 1 second or 59 minutes 59 seconds!\n\n❌ To cancel press the 'Cancel' button"
+
+msgid "enter_time"
+msgstr "⏰ When should the capsule open?\n\n📌 *Examples:*\n• 1 year\n• 6 months 3 days\n• 2026-01-15 14:30\n• 30 minutes\n• 2 weeks\n\n⚠️ *Note:* Only *1 capsule* per time!\n📦 You have {count}/{max_count} capsules\n❌ To cancel: press 'Cancel'"
+
+msgid "max_capsules_error"
+msgstr "❌ You already have *{count}* capsules!\nPlease delete one first using '🗑 Delete Capsule'."
+
+msgid "operation_cancelled"
+msgstr "✅ Operation cancelled."
+
+msgid "future_time_error"
+msgstr "❌ Time must be in the *future*! Please enter again:"
+
+msgid "max_time_error"
+msgstr "❌ Time cannot exceed *3 years*! Enter again:"
+
+msgid "taken_time_error"
+msgstr "⚠️ *This time is already taken!*\n\nYou already have a capsule for {time}.\n\n💡 *Tip:* Slightly change the time:\n• {time_plus_1s} (1 second difference)\n• {time_plus_1m} (1 minute difference)\n\nOr enter a different time:"
+
+msgid "time_set"
+msgstr "✅ Capsule will open on *{time}*!\n\n📝 Now send your message or file.\n(Text, photo, video, video note, audio, voice, or document)\n\n📎 To add *multiple files*:\n1. Send the first file\n2. Press '📎 Add more files'\n3. Send the second file\n4. Press '✅ Done!'\n\n❌ To cancel: press 'Cancel'"
+
+msgid "time_format_error"
+msgstr "❌ *Incorrect time format!*\n{error}\n\nPlease try again:"
+
+msgid "time_format_help"
+msgstr "❌ Format should be: number unit (example: 1 year 2 months)"
+
+msgid "invalid_number"
+msgstr "❌ '{number}' is not a valid number"
+
+msgid "invalid_unit"
+msgstr "❌ '{unit}' is not a valid time unit!\n📌 Use: year, month, week, day, hour, minute, second"
+
+msgid "max_files_error"
+msgstr "❌ Maximum *{max_files}* files per capsule!\nPlease press '✅ Done!'."
+
+msgid "send_next_file"
+msgstr "📎 Send the next file ({current}/{max_files}):\n\nAfter sending, you can add more or press '✅ Done!'."
+
+msgid "empty_capsule_error"
+msgstr "❌ You didn't send anything! Please send a message or file."
+
+msgid "capsule_created"
+msgstr "✅ *Capsule created!*\n\n📦 Type: {content_type}\n📎 Files: {files_count} pcs.\n⏰ Opens: {delivery_time}\n📅 Created: {created_at}\n\n🕰 I will open the capsule at the specified time!"
+
+msgid "file_added"
+msgstr "File added! ({current}/{max_files})\n\n📎 For another file: '📎 Add more files'\n✅ To finish: '✅ Done!'"
+
+msgid "text_updated"
+msgstr "⚠️ You already entered text! Text replaced."
+
+msgid "text_saved"
+msgstr "📝 Text saved!\n\n📎 Now you can add a file: '📎 Add more files'\n✅ Or press '✅ Done!'."
+
+msgid "text_type"
+msgstr "📝 Text"
+
+msgid "photo_type"
+msgstr "🖼 Photo"
+
+msgid "video_type"
+msgstr "🎬 Video"
+
+msgid "video_note_type"
+msgstr "🎥 Video Note"
+
+msgid "audio_type"
+msgstr "🎵 Audio"
+
+msgid "voice_type"
+msgstr "🎤 Voice"
+
+msgid "document_type"
+msgstr "📁 File"
+
+msgid "your_capsules"
+msgstr "📦 *Your capsules:*"
+
+msgid "list_empty"
+msgstr "📭 You have no capsules!"
+
+msgid "status_opened"
+msgstr "✅ Opened"
+
+msgid "status_closed"
+msgstr "🔒 Closed"
+
+msgid "content_text_files"
+msgstr "📝+📎({count})"
+
+msgid "content_text"
+msgstr "📝 Text"
+
+msgid "content_files"
+msgstr "📎 {count} files"
+
+msgid "content_empty"
+msgstr "📭 Empty"
+
+msgid "time_remaining"
+msgstr "{days}d {hours}h {minutes}m remaining"
+
+msgid "no_unopened_capsules"
+msgstr "📭 You have no unopened capsules!"
+
+msgid "delete_confirm"
+msgstr "🗑 *Select capsule to delete:*"
+
+msgid "cancel_delete"
+msgstr "❌ Cancel"
+
+msgid "delete_cancelled"
+msgstr "✅ Delete operation cancelled."
+
+msgid "delete_success"
+msgstr "✅ Capsule successfully deleted!"
+
+msgid "main_menu_returned"
+msgstr "👆 Main menu returned:"
+
+msgid "capsule_not_found"
+msgstr "❌ Error: Capsule not found!"
+
+msgid "capsule_opened"
+msgstr "⏰ *Time Capsule opened!*\n\n📅 Creation date: {created_date}\n💭 Message:\n{message}"
+
+msgid "files_opened"
+msgstr "⏰ *Time Capsule opened!*\n📅 Creation date: {created_date}\n📦 {files_count} file(s) sent! 🎁"
+
+msgid "photo_from_past"
+msgstr "📸 Your photo from the past! ⏰"
+
+msgid "video_from_past"
+msgstr "🎬 Your video from the past! ⏰"
+
+msgid "recording_from"
+msgstr "🎵 Recording {date}"
+
+msgid "file_from_past"
+msgstr "📁 Your file from the past! ⏰"
+
+msgid "size_limit_exceeded"
+msgstr ""
+"❌ *Capsule size exceeded!*\n"
+"\n"
+"📦 Maximum size: {max_size}\n"
+"📊 Current size: {current_size}\n"
+"📁 New file size: {file_size}\n"
+"💡 Remaining: {remaining}\n"
+"\n"
+"Please send a smaller file or press '✅ Done!'."
+
+msgid "size_limit_final_error"
+msgstr ""
+"❌ *Capsule is too large!*\n"
+"\n"
+"📦 Total size: {total_size}\n"
+"⚠️ Maximum allowed: {max_size}\n"
+"📈 Excess: {excess}\n"
+"\n"
+"Please delete some files or choose smaller files."
+
+msgid "welcome_back"
+msgstr "Welcome back! 🥰"
+
+msgid "timezone_prompt"
+msgstr "🕐 <b>Please select your timezone:</b>\n\nYou can change your timezone later from the main menu."
+
+msgid "skip_timezone"
+msgstr "⏩ Skip (Tajikistan UTC+5)"
+
+msgid "timezone_set"
+msgstr "✅ Your timezone has been set: {tz_name}"

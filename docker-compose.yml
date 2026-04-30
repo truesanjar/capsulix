@@ -1,0 +1,14 @@
+services:
+  capsulix:
+    build: .
+    container_name: capsulix
+    restart: unless-stopped
+    volumes:
+      - ./data:/app/data
+    environment:
+      - BOT_TOKEN=${BOT_TOKEN}
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"

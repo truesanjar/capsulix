@@ -1,0 +1,5 @@
+aiogram>=3.7.0,<4.0.0
+apscheduler>=3.10.0
+python-dotenv>=1.0.0
+aiogram-i18n>=0.2.0
+babel>=2.14.0

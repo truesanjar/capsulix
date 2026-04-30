@@ -1,0 +1,2 @@
+# capsulix
+Capsulix - Telegram bot for sending time capsules to your future self. Schedule messages, photos, videos, and files to be delivered at any moment in the future. Supports 3 languages (English, Russian, Tajik).

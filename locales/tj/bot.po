@@ -1,0 +1,205 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Time Capsule Bot\n"
+"Language: tj\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "start"
+msgstr "⏳ *Капсулаи Замон*\n\n👋 Салом! Ман ба шумо кӯмак мекунам, ки барои худатон дар оянда паём фиристед!\n\n🎯 *Чӣ кор карда метавонед:*\n• 📝 Паёми матнӣ фиристед\n• 🖼 Акс захира кунед (якчандто якҷоя!)\n• 🎬 Видео гузоред\n• 🎥 Видеои доирашакл (Video Note)\n• 🎵 Аудио/садо сабт кунед\n• 📁 Ҳар гуна файл бор кунед\n\n⏰ Шумо метавонед вақтро то *сония* дақиқ кунед!\n⚠️ *Ҳар вақт фақат 1 капсула!* (Барои ду капсула, вақтҳои гуногун интихоб кунед)\n📦 Ҳар корбар *10 капсула* сохта метавонад\n\n👇 Аз менюи зер истифода баред:"
+
+msgid "choose_language"
+msgstr "🌍 Лутфан забони худро интихоб кунед:"
+
+msgid "language_set"
+msgstr "✅ Забон ба тоҷикӣ иваз шуд!"
+
+msgid "cancel"
+msgstr "❌ Лағв кардан"
+
+msgid "ready_send"
+msgstr "✅ Тайёр! Фиристодан"
+
+msgid "add_more_files"
+msgstr "📎 Боз файл илова кардан"
+
+msgid "delete_capsule"
+msgstr "🗑 Ҳазфи капсула"
+
+msgid "help_text"
+msgstr "📖 *Роҳнамои Капсулаи Замон*\n\n1️⃣ '🆕 Капсулаи нав' - Капсулаи нав сохтан\n2️⃣ Ворид кардани вақт (масалан: 1 сол 2 моҳ 3 рӯз 4 соат)\n3️⃣ Фиристодани паём ё файл(ҳо)\n4️⃣ Барои якчанд файл: '📎 Боз файл илова кардан'-ро пахш кунед\n\n📌 *Мисолҳои вақт:*\n• 1 сол\n• 6 моҳ\n• 15 дақиқа\n• 2025-01-01 12:00\n• 2 ҳафта 3 рӯз\n\n⚠️ *Диққат:* Барои як вақт фақат 1 капсула сохта мешавад!\nАгар боз ҳамон вақтро ворид кунед, хатогӣ медиҳад.\nБа ҷояш 1 соат 1 сония ё 59 дақиқа 59 сония ворид кунед!\n\n❌ Барои лағв кардан тугмаи 'Лағв кардан'-ро пахш кунед"
+
+msgid "enter_time"
+msgstr "⏰ Кай мехоҳед капсула кушода шавад?\n\n📌 *Намунаҳо:*\n• 1 сол\n• 6 моҳ 3 рӯз\n• 2026-01-15 14:30\n• 30 дақиқа\n• 2 ҳафта\n\n⚠️ *Диққат:* Барои ҳар вақт фақат *1 капсула*!\n📦 Шумо {count}/{max_count} капсула доред\n❌ Барои лағв: 'Лағв кардан'-ро пахш кунед"
+
+msgid "max_capsules_error"
+msgstr "❌ Шумо аллакай *{count}* капсула доред!\nЛутфан аввал яке аз онҳоро бо '🗑 Ҳазфи капсула' ҳазф кунед."
+
+msgid "operation_cancelled"
+msgstr "✅ Амалиёт лағв карда шуд."
+
+msgid "future_time_error"
+msgstr "❌ Вақт бояд дар *оянда* бошад! Лутфан дубора ворид кунед:"
+
+msgid "max_time_error"
+msgstr "❌ Вақт наметавонад аз *3 сол* зиёд бошад! Дубора ворид кунед:"
+
+msgid "taken_time_error"
+msgstr "⚠️ *Ин вақт аллакай гирифта шудааст!*\n\nШумо аллакай барои {time} капсула доред.\n\n💡 *Маслиҳат:* Вақтро каме тағйир диҳед:\n• {time_plus_1s} (1 сония фарқ)\n• {time_plus_1m} (1 дақиқа фарқ)\n\nЁ вақти дигареро ворид кунед:"
+
+msgid "time_set"
+msgstr "✅ Капсула *{time}* боз мешавад!\n\n📝 Акнун паём ё файли худро фиристед.\n(Матн, акс, видео, video note, аудио, садо ё ҳуҷҷат)\n\n📎 Барои *якчанд файл* якҷоя кардан:\n1. Файли аввалро фиристед\n2. '📎 Боз файл илова кардан'-ро пахш кунед\n3. Файли дуюмро фиристед\n4. '✅ Тайёр!'-ро пахш кунед\n\n❌ Барои лағв: 'Лағв кардан'-ро пахш кунед"
+
+msgid "time_format_error"
+msgstr "❌ *Формати вақт нодуруст!*\n{error}\n\nЛутфан дубора кӯшиш кунед:"
+
+msgid "time_format_help"
+msgstr "❌ Формат бояд: адад воҳид бошад (масалан: 1 сол 2 моҳ)"
+
+msgid "invalid_number"
+msgstr "❌ '{number}' адади эътиборнок нест"
+
+msgid "invalid_unit"
+msgstr "❌ '{unit}' воҳиди вақти нодуруст!\n📌 Истифода баред: сол, моҳ, ҳафта, рӯз, соат, дақиқа, сония"
+
+msgid "max_files_error"
+msgstr "❌ Максимум *{max_files}* файл барои як капсула!\nЛутфан '✅ Тайёр!'-ро пахш кунед."
+
+msgid "send_next_file"
+msgstr "📎 Файли навбатиро фиристед ({current}/{max_files}):\n\nПас аз фиристодан, боз метавонед илова кунед ё '✅ Тайёр!'-ро пахш кунед."
+
+msgid "empty_capsule_error"
+msgstr "❌ Шумо ҳеҷ чиз фиристодед! Лутфан паём ё файл фиристед."
+
+msgid "capsule_created"
+msgstr "✅ *Капсула сохта шуд!*\n\n📦 Намуд: {content_type}\n📎 Файлҳо: {files_count} дона\n⏰ Бозшавӣ: {delivery_time}\n📅 Сохташуда: {created_at}\n\n🕰 Ман дар вақти муайяншуда капсуларо мекушоям!"
+
+msgid "file_added"
+msgstr "Файл илова шуд! ({current}/{max_files})\n\n📎 Барои файли дигар: '📎 Боз файл илова кардан'\n✅ Барои анҷом: '✅ Тайёр!'"
+
+msgid "text_updated"
+msgstr "⚠️ Шумо аллакай матн ворид кардед! Матн иваз шуд."
+
+msgid "text_saved"
+msgstr "📝 Матн сабт шуд!\n\n📎 Акнун метавонед файл ҳам илова кунед: '📎 Боз файл илова кардан'\n✅ Ё '✅ Тайёр!'-ро пахш кунед."
+
+msgid "text_type"
+msgstr "📝 Матн"
+
+msgid "photo_type"
+msgstr "🖼 Акс"
+
+msgid "video_type"
+msgstr "🎬 Видео"
+
+msgid "video_note_type"
+msgstr "🎥 Видеои доира"
+
+msgid "audio_type"
+msgstr "🎵 Аудио"
+
+msgid "voice_type"
+msgstr "🎤 Садо"
+
+msgid "document_type"
+msgstr "📁 Файл"
+
+msgid "your_capsules"
+msgstr "📦 *Капсулаҳои шумо:*"
+
+msgid "list_empty"
+msgstr "📭 Шумо ҳеҷ капсула надоред!"
+
+msgid "status_opened"
+msgstr "✅ Кушода шуд"
+
+msgid "status_closed"
+msgstr "🔒 Баста"
+
+msgid "content_text_files"
+msgstr "📝+📎({count})"
+
+msgid "content_text"
+msgstr "📝 Матн"
+
+msgid "content_files"
+msgstr "📎 {count} файл"
+
+msgid "content_empty"
+msgstr "📭 Холӣ"
+
+msgid "time_remaining"
+msgstr "{days}р {hours}с {minutes}дқ монда"
+
+msgid "no_unopened_capsules"
+msgstr "📭 Шумо капсулаи кушоданашуда надоред!"
+
+msgid "delete_confirm"
+msgstr "🗑 *Интихоб кунед капсула барои ҳазф:*"
+
+msgid "cancel_delete"
+msgstr "❌ Лағв кардан"
+
+msgid "delete_cancelled"
+msgstr "✅ Амалиёти ҳазф лағв карда шуд."
+
+msgid "delete_success"
+msgstr "✅ Капсула бо муваффақият ҳазф шуд!"
+
+msgid "main_menu_returned"
+msgstr "👆 Менюи асосӣ баргашт:"
+
+msgid "capsule_not_found"
+msgstr "❌ Хатогӣ: Капсула ёфт нашуд!"
+
+msgid "capsule_opened"
+msgstr "⏰ *Капсулаи Замон боз шуд!*\n\n📅 Санаи сохтан: {created_date}\n💭 Паём:\n{message}"
+
+msgid "files_opened"
+msgstr "⏰ *Капсулаи Замон боз шуд!*\n📅 Санаи сохтан: {created_date}\n📦 {files_count} файл ирсол шуд! 🎁"
+
+msgid "photo_from_past"
+msgstr "📸 Акси шумо аз гузашта! ⏰"
+
+msgid "video_from_past"
+msgstr "🎬 Видеои шумо аз гузашта! ⏰"
+
+msgid "recording_from"
+msgstr "🎵 Сабти {date}"
+
+msgid "file_from_past"
+msgstr "📁 Файли шумо аз гузашта! ⏰"
+
+msgid "size_limit_exceeded"
+msgstr ""
+"❌ *Андозаи капсула зиёд аст!*\n"
+"\n"
+"📦 Андозаи максималӣ: {max_size}\n"
+"📊 Андозаи ҷорӣ: {current_size}\n"
+"📁 Андозаи файли нав: {file_size}\n"
+"💡 Боқимонда: {remaining}\n"
+"\n"
+"Лутфан файли хурдтар фиристед ё '✅ Тайёр!'-ро пахш кунед."
+
+msgid "size_limit_final_error"
+msgstr ""
+"❌ *Капсула аз ҳад калон аст!*\n"
+"\n"
+"📦 Андозаи умумӣ: {total_size}\n"
+"⚠️ Максимум иҷозатдода: {max_size}\n"
+"📈 Зиёдатӣ: {excess}\n"
+"\n"
+"Лутфан ягон файлро ҳазф кунед ё файлҳои хурдтар интихоб кунед."
+
+msgid "welcome_back"
+msgstr "Бозгашт муборак! 🥰"
+
+msgid "timezone_prompt"
+msgstr "🕐 <b>Лутфан минтақаи вақтии худро интихоб кунед:</b>\n\nШумо метавонед баъдтар аз менюи асосӣ минтақаи вақтиро тағйир диҳед."
+
+msgid "skip_timezone"
+msgstr "⏩ Гузариш (Тоҷикистон UTC+5)"
+
+msgid "timezone_set"
+msgstr "✅ Минтақаи вақтии шумо танзим шуд: {tz_name}"

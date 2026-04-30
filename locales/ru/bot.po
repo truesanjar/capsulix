@@ -1,0 +1,205 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Time Capsule Bot\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "start"
+msgstr "⏳ *Капсула Времени*\n\n👋 Привет! Я помогу вам отправить сообщение самому себе в будущее!\n\n🎯 *Что можно сделать:*\n• 📝 Отправить текст\n• 🖼 Сохранить фото (можно несколько!)\n• 🎬 Отправить видео\n• 🎥 Кружок (Video Note)\n• 🎵 Записать аудио\n• 📁 Загрузить любой файл\n\n⏰ Можно указать время с точностью до *секунды*!\n⚠️ *Одновременно только 1 капсула!* (Для двух капсул выберите разное время)\n📦 Каждый пользователь может создать *10 капсул*\n\n👇 Используйте меню ниже:"
+
+msgid "choose_language"
+msgstr "🌍 Пожалуйста, выберите язык:"
+
+msgid "language_set"
+msgstr "✅ Язык изменён на русский!"
+
+msgid "cancel"
+msgstr "❌ Отмена"
+
+msgid "ready_send"
+msgstr "✅ Готово! Отправить"
+
+msgid "add_more_files"
+msgstr "📎 Добавить ещё файл"
+
+msgid "delete_capsule"
+msgstr "🗑 Удалить капсулу"
+
+msgid "help_text"
+msgstr "📖 *Руководство Капсулы Времени*\n\n1️⃣ '🆕 Новая капсула' - Создать новую капсулу\n2️⃣ Ввести время (например: 1 год 2 месяца 3 дня 4 часа)\n3️⃣ Отправить сообщение или файл(ы)\n4️⃣ Для нескольких файлов: нажмите '📎 Добавить ещё файл'\n\n📌 *Примеры времени:*\n• 1 год\n• 6 месяцев\n• 15 минут\n• 2025-01-01 12:00\n• 2 недели 3 дня\n\n⚠️ *Внимание:* Для одного времени только 1 капсула!\nЕсли введёте то же время, будет ошибка.\nВместо этого введите 1 час 1 секунда или 59 минут 59 секунд!\n\n❌ Для отмены нажмите кнопку 'Отмена'"
+
+msgid "enter_time"
+msgstr "⏰ Когда открыть капсулу?\n\n📌 *Примеры:*\n• 1 год\n• 6 месяцев 3 дня\n• 2026-01-15 14:30\n• 30 минут\n• 2 недели\n\n⚠️ *Внимание:* Для каждого времени только *1 капсула*!\n📦 У вас {count}/{max_count} капсул\n❌ Для отмены: нажмите 'Отмена'"
+
+msgid "max_capsules_error"
+msgstr "❌ У вас уже *{count}* капсул!\nПожалуйста, сначала удалите одну через '🗑 Удалить капсулу'."
+
+msgid "operation_cancelled"
+msgstr "✅ Операция отменена."
+
+msgid "future_time_error"
+msgstr "❌ Время должно быть в *будущем*! Пожалуйста, введите ещё раз:"
+
+msgid "max_time_error"
+msgstr "❌ Время не может превышать *3 года*! Введите ещё раз:"
+
+msgid "taken_time_error"
+msgstr "⚠️ *Это время уже занято!*\n\nУ вас уже есть капсула на {time}.\n\n💡 *Совет:* Немного измените время:\n• {time_plus_1s} (разница 1 секунда)\n• {time_plus_1m} (разница 1 минута)\n\nИли введите другое время:"
+
+msgid "time_set"
+msgstr "✅ Капсула откроется *{time}*!\n\n📝 Теперь отправьте сообщение или файл.\n(Текст, фото, видео, video note, аудио, голосовое или документ)\n\n📎 Чтобы добавить *несколько файлов*:\n1. Отправьте первый файл\n2. Нажмите '📎 Добавить ещё файл'\n3. Отправьте второй файл\n4. Нажмите '✅ Готово!'\n\n❌ Для отмены: нажмите 'Отмена'"
+
+msgid "time_format_error"
+msgstr "❌ *Неверный формат времени!*\n{error}\n\nПожалуйста, попробуйте ещё раз:"
+
+msgid "time_format_help"
+msgstr "❌ Формат должен быть: число единица (например: 1 год 2 месяца)"
+
+msgid "invalid_number"
+msgstr "❌ '{number}' не является допустимым числом"
+
+msgid "invalid_unit"
+msgstr "❌ '{unit}' недопустимая единица времени!\n📌 Используйте: год, месяц, неделя, день, час, минута, секунда"
+
+msgid "max_files_error"
+msgstr "❌ Максимум *{max_files}* файлов для одной капсулы!\nПожалуйста, нажмите '✅ Готово!'."
+
+msgid "send_next_file"
+msgstr "📎 Отправьте следующий файл ({current}/{max_files}):\n\nПосле отправки можете добавить ещё или нажать '✅ Готово!'."
+
+msgid "empty_capsule_error"
+msgstr "❌ Вы ничего не отправили! Пожалуйста, отправьте сообщение или файл."
+
+msgid "capsule_created"
+msgstr "✅ *Капсула создана!*\n\n📦 Тип: {content_type}\n📎 Файлов: {files_count} шт.\n⏰ Откроется: {delivery_time}\n📅 Создано: {created_at}\n\n🕰 Я открою капсулу в указанное время!"
+
+msgid "file_added"
+msgstr "Файл добавлен! ({current}/{max_files})\n\n📎 Для ещё одного файла: '📎 Добавить ещё файл'\n✅ Для завершения: '✅ Готово!'"
+
+msgid "text_updated"
+msgstr "⚠️ Вы уже ввели текст! Текст заменён."
+
+msgid "text_saved"
+msgstr "📝 Текст сохранён!\n\n📎 Теперь можно добавить файл: '📎 Добавить ещё файл'\n✅ Или нажмите '✅ Готово!'."
+
+msgid "text_type"
+msgstr "📝 Текст"
+
+msgid "photo_type"
+msgstr "🖼 Фото"
+
+msgid "video_type"
+msgstr "🎬 Видео"
+
+msgid "video_note_type"
+msgstr "🎥 Кружок"
+
+msgid "audio_type"
+msgstr "🎵 Аудио"
+
+msgid "voice_type"
+msgstr "🎤 Голосовое"
+
+msgid "document_type"
+msgstr "📁 Файл"
+
+msgid "your_capsules"
+msgstr "📦 *Ваши капсулы:*"
+
+msgid "list_empty"
+msgstr "📭 У вас нет капсул!"
+
+msgid "status_opened"
+msgstr "✅ Открыта"
+
+msgid "status_closed"
+msgstr "🔒 Закрыта"
+
+msgid "content_text_files"
+msgstr "📝+📎({count})"
+
+msgid "content_text"
+msgstr "📝 Текст"
+
+msgid "content_files"
+msgstr "📎 {count} файл"
+
+msgid "content_empty"
+msgstr "📭 Пусто"
+
+msgid "time_remaining"
+msgstr "{days}д {hours}ч {minutes}мин осталось"
+
+msgid "no_unopened_capsules"
+msgstr "📭 У вас нет неоткрытых капсул!"
+
+msgid "delete_confirm"
+msgstr "🗑 *Выберите капсулу для удаления:*"
+
+msgid "cancel_delete"
+msgstr "❌ Отмена"
+
+msgid "delete_cancelled"
+msgstr "✅ Операция удаления отменена."
+
+msgid "delete_success"
+msgstr "✅ Капсула успешно удалена!"
+
+msgid "main_menu_returned"
+msgstr "👆 Главное меню возвращено:"
+
+msgid "capsule_not_found"
+msgstr "❌ Ошибка: Капсула не найдена!"
+
+msgid "capsule_opened"
+msgstr "⏰ *Капсула Времени открылась!*\n\n📅 Дата создания: {created_date}\n💭 Сообщение:\n{message}"
+
+msgid "files_opened"
+msgstr "⏰ *Капсула Времени открылась!*\n📅 Дата создания: {created_date}\n📦 Отправлено {files_count} файл(ов)! 🎁"
+
+msgid "photo_from_past"
+msgstr "📸 Ваше фото из прошлого! ⏰"
+
+msgid "video_from_past"
+msgstr "🎬 Ваше видео из прошлого! ⏰"
+
+msgid "recording_from"
+msgstr "🎵 Запись {date}"
+
+msgid "file_from_past"
+msgstr "📁 Ваш файл из прошлого! ⏰"
+
+msgid "size_limit_exceeded"
+msgstr ""
+"❌ *Размер капсулы превышен!*\n"
+"\n"
+"📦 Максимальный размер: {max_size}\n"
+"📊 Текущий размер: {current_size}\n"
+"📁 Размер нового файла: {file_size}\n"
+"💡 Осталось: {remaining}\n"
+"\n"
+"Пожалуйста, отправьте файл меньшего размера или нажмите '✅ Готово!'."
+
+msgid "size_limit_final_error"
+msgstr ""
+"❌ *Капсула слишком большая!*\n"
+"\n"
+"📦 Общий размер: {total_size}\n"
+"⚠️ Максимально разрешено: {max_size}\n"
+"📈 Превышение: {excess}\n"
+"\n"
+"Пожалуйста, удалите какой-нибудь файл или выберите файлы меньшего размера."
+
+msgid "welcome_back"
+msgstr "Добро пожаловать! 🥰"
+
+msgid "timezone_prompt"
+msgstr "🕐 <b>Пожалуйста, выберите ваш часовой пояс:</b>\n\nВы сможете изменить часовой пояс позже из главного меню."
+
+msgid "skip_timezone"
+msgstr "⏩ Пропустить (Таджикистан UTC+5)"
+
+msgid "timezone_set"
+msgstr "✅ Ваш часовой пояс установлен: {tz_name}"
